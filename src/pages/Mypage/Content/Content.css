@@ -1,0 +1,15 @@
+.content{
+    overflow: hidden;
+    padding: 2px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: center;
+}
+.subContent{
+    white-space: nowrap;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: contents; */
+}

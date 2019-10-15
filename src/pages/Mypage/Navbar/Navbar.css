@@ -1,0 +1,12 @@
+.container-nav{
+    overflow:hidden;
+}
+.box{
+    white-space:nowrap
+}
+.box div{
+    display:inline-block;
+}
+.left{
+    margin-right: 60%;
+}
