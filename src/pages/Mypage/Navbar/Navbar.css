@@ -8,5 +8,9 @@
     display:inline-block;
 }
 .left{
-    margin-right: 60%;
+    /* margin-right: 60%; */
+}
+.center{
+    margin-left: 25%;
+    margin-right: 25%;
 }

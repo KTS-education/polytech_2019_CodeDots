@@ -8,10 +8,11 @@ class Gift extends React.Component {
         img:PropTypes.string,
         name:PropTypes.string,
         price:PropTypes.string,
-        description:PropTypes.string
+        description:PropTypes.string,
+        isMyPage:PropTypes.bool
     };
     render() {
-        const{img,name,price,description}=this.props;
+        const{img,name,price,description,isMyPage}=this.props;
       return (
         <div className="cc">
             <div className="gift">
@@ -20,7 +21,7 @@ class Gift extends React.Component {
                     <a className="giftName">{name}</a>
                     <a className="giftPrice">{price}</a>
                     <a className="giftDescription">{description}</a>
-                    <GButton/>
+                    <GButton isMyPage={isMyPage}/>
                 </div>      
             </div>
         </div>

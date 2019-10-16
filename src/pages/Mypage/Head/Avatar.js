@@ -1,10 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Avatar.css';
 class Avatar extends React.Component {
+    static propTypes={
+      avatar:PropTypes.string.isRequired,
+    };
     render() {
+      const {avatar}=this.props;
       return (
         <div className="avatar">
-          <img src="https://cdn1.flamp.ru/624c1667233b6e8be3fb07bd7bd95756.jpg"/>
+          <img src={avatar}/>
         </div>
       );
     }

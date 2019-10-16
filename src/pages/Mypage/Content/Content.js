@@ -1,5 +1,6 @@
 import React from 'react';
 import Gift from './Gift';
+import PropTypes from 'prop-types';
 import './Content.css';
 class Content extends React.Component {
     state={
@@ -11,13 +12,17 @@ class Content extends React.Component {
         
       ]
     }
+    static propTypes={
+      isMyPage:PropTypes.bool.isRequired
+    };
     render() {
+      const{isMyPage}=this.props;
       return (
         <div className="content">
           <div className="subContent">
             {/* <p>🙁</p>
             <p>Кажется, ты не любишь дарить подарки</p> */}
-            {this.state.gifts.map((gift)=><Gift img={gift.img} name={gift.name} price={gift.price} description={gift.description}/>)}
+            {this.state.gifts.map((gift)=><Gift img={gift.img} name={gift.name} price={gift.price} description={gift.description} isMyPage={isMyPage}/>)}
           </div>
         </div>
       );

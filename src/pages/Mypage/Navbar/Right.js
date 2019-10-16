@@ -1,13 +1,17 @@
 import React from 'react';
 import './Right.css';
+import PropTypes from 'prop-types';
 class Right extends React.Component {
-    state={
-        friends:[
-            {ava:"https://cdn1.flamp.ru/624c1667233b6e8be3fb07bd7bd95756.jpg"},
-            {ava:"https://cdn1.flamp.ru/624c1667233b6e8be3fb07bd7bd95756.jpg"},
-            {ava:"https://cdn1.flamp.ru/624c1667233b6e8be3fb07bd7bd95756.jpg"}
-        ]
+    static propTypes={
+        friends:PropTypes.array.isRequired,
     };
+    constructor(props){
+        super(props);
+        console.log(props);
+        this.state={
+            friends:props.friends
+        }
+    }
     render() {
       return (
         <div>
