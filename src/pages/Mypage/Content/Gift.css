@@ -1,0 +1,51 @@
+.itemImg{
+    width: 190px;
+    height: 200px; 
+    margin-bottom: 200px;
+}
+img{
+    width: inherit;
+    height: inherit;
+}
+.giftName{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: left;
+}
+.giftPrice{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: left;
+    margin-top: 5px;
+}
+.giftDescription{
+    font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b2b2b2;
+  text-align: left;
+  margin-top: 5px
+}
+.itemImg>a{
+    display: block;
+}
+.gift{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.cc{
+    display: inline-block;
+}

@@ -1,0 +1,9 @@
+.avatar>img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 100px;
+}
+.avatar{
+    margin-left: -50%;
+}

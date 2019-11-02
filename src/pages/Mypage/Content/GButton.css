@@ -1,0 +1,32 @@
+.gbutton{
+    margin-top: 15px;
+    text-align: left;
+    
+}
+.gbutton>button{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    font-family: SFUIDisplay;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+}
+.gbutton>img{
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.gContainer{
+    width: 200px;
+    overflow:hidden; 
+}

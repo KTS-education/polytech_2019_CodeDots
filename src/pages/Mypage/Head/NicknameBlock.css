@@ -1,0 +1,16 @@
+.nickname{
+    white-space:nowrap   
+}
+.nickname div{
+    display:inline-block;
+    margin-left: 1rem;
+}
+.nickname h1{
+    text-align: start;
+    margin-left: 1rem;
+}
+.container{
+    height: 170px;
+    margin-left: 4rem;
+    overflow:hidden;
+}
